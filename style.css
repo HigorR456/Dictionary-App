@@ -13,23 +13,14 @@ body {
 div.wrapper {
     width: 600px;
     height: 600px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(0, 255, 255, 0.5);
     padding: 20px;
     border-radius: 5px;
+    box-shadow: 0px 0px 120px -50px cyan, inset 0px 0px 100px -50px cyan;
 }
 
 div.result-box {
     justify-content: center;
-}
-
-button {
-    border: none;
-    font-size: 25px;
-}
-
-input {
-    font-size: 30px;
-    width: 260px;
 }
 
 div.titleWrapper {
@@ -74,21 +65,56 @@ p1 {
     background-color: rgb(100, 100, 100);
     padding: 10px;
     font-size: 30px;
+    box-shadow: inset 0px 0px 8px black;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    font-size: 25px;border-style: outset;
+    border-width: 5px;
+    background-color: rgb(200, 200, 200);
+}
+
+input {
+    font-size: 30px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+button.search-btn {
+    width: 95px;
+    height: 55px;
+    border-radius: 5px;
 }
 
 button.type-btn {
     width: 50px;
     height: 50px;
+    border-radius: 25px;
 }
 
 button.definition-btn {
     width: 50px;
     height: 50px;
     margin-top: 50px;
+    border-radius: 25px;
 }
 
 i {
     color:rgba(255, 255, 255, 0.6);
     display: block;
     font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+button:active {
+    border-style: inset;
+    font-size: 20px;
+    box-shadow: inset 0px 0px 8px black;
+    border-width: 7px;
 }
